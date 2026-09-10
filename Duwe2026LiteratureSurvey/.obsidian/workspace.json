@@ -4,40 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "89bdc96a37d7e759",
+        "id": "7370183f65760918",
         "type": "tabs",
         "children": [
           {
-            "id": "74d44fe35d1e9409",
+            "id": "ad83e0e1ea811efa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
+                "file": "HAIL/HAIL_IEEE_RTSS_2026.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Welcome"
+              "icon": "lucide-file-text",
+              "title": "HAIL_IEEE_RTSS_2026"
             }
-          }
-        ]
-      },
-      {
-        "id": "f902e61f2e92eef9",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "77df656b560de0df",
+            "id": "47aa0c44f2de4484",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore  (Index)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +113,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -177,7 +173,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,13 +180,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "3e713bb9bca403b9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,17 +206,27 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "webpage-html-export:Export as HTML": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "74d44fe35d1e9409",
+  "active": "47aa0c44f2de4484",
   "lastOpenFiles": [
-    "AsTAR/AsTAR Citations.md",
+    "HAIL/HAIL.md",
+    "HAIL/HAIL_IEEE_RTSS_2026.pdf.sb-5a311f4f-FolbxP",
+    "HAIL/HAIL_IEEE_RTSS_2026.pdf",
+    "HAIL/HAIL_RTSS_2026_REBUTTAL.pdf",
     "AsTAR/Astar.md",
-    "AsTAR/3467894.pdf",
+    "HAIL",
     "Welcome.md",
-    "Untitled.md",
-    "Untitled",
+    "Untitled.canvas",
+    "2026-09-09.md",
+    "AsTAR/AsTAR Citations.md",
+    "Untitled 1.base",
+    "Untitled.base",
+    "2026-09-07.md",
+    "AsTAR/3467894.pdf",
     "AsTAR"
   ]
 }
