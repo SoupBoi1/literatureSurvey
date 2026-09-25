@@ -3,7 +3,7 @@ AsTAR, an energy-aware task scheduler that automatically adapts task execution r
 
  energy harvesting  is notoriously complex to develop reliable energy-harvesting applications due to three factors: 
 1. Environmental dynamism, which gives rise to an unpredictable energy supply,
-2. heterogeneity in platform and peripheral power demands, and 
+2. heterogeneity in platform and peripheral power demands 
 3. [[the tragedy of the coulombs]] [10.1145/2809695.2809707]-  wherein a single energy-hungry software module can starve all other modules of energy, rendering the device inoperable.
 
 Asymmetric Task Adaptation Rate scheduler (AsTAR)   throttling task execution rates to sustain good amount of charge. 
@@ -23,9 +23,44 @@ in AsTAR evaluation they show
 - (iv) AsTAR has extremely low performance overhead even on IETF Class-1 devices. 
 
 # Related Work
+Harvest 
+- energy prediction model  is one of the bigger solutions being looked at 
+
+- united federation of peripheral (UFOP) introduces multiple capacitors for each peripheral. 
+
+- [[the tragedy of the coulombs]] : a single energy  hungry task consume sufficient energy to render the entire system inoperable. 
+- engergy. hervestor reseach fall in two broad categories
+	-  sustainable operation in the face of dynamic energy availability
+	- Embraces intermittent operation
+- sustainable is Astar 
+
+OS
+- ink mangeses memoery and timings in face of intermittent engergy while astar fouses on sustantablity 
+- cinder OS added a virtuall lasy of engergy aviblity of each task/application 
+- Eon uses Exponentially Weighted Moving Average (EWMA)  power supply perdictions while energy consumption estimates are based upon benchmarks obtained. 
+
+Software
+
+Econ is alanguage made for perpetually powered systems. Targets only server-class devices
+
+reitter et al estimemte life cycle of IoT
+
+Gaps. and requerments 
+
+- Reducing the burden of benchmarking
+- operation on heterogeneous: support ever changing hardware
+
+- Flexible Multi-Tasking: 
+	- task excualtion on  developer-specified priority vs energy consumption
+	- Astar say why not both 
+- Mitigating dynamism:  respect unpredictable environments, **long term modeling is likely proven in effective**  
+- low runtime overhead
+``
+
 
 
 # Methodology
+
 
 
 # Implementation
